@@ -1,0 +1,5 @@
+,CV ROC-AUC (train),Accuracy,Precision,Recall,F1-score,ROC-AUC,False-negative rate,False-positive rate
+Logistic Regression,0.774,0.74,0.547,0.783,0.644,0.805,0.217,0.279
+Decision Tree,0.698,0.615,0.407,0.617,0.49,0.677,0.383,0.386
+Random Forest,0.797,0.775,0.636,0.583,0.609,0.791,0.417,0.143
+Baseline (always 'good'),,0.7,0.0,0.0,0.0,0.5,1.0,0.0

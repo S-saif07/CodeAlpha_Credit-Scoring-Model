@@ -1,0 +1,30 @@
+{
+  "dataset": {
+    "rows": 1000,
+    "bad_rate": 0.3,
+    "missing": 0,
+    "duplicates": 0
+  },
+  "sklearn_version": "1.8.0",
+  "seed": 42,
+  "best_params": {
+    "Logistic Regression": {
+      "model__C": 0.1
+    },
+    "Decision Tree": {
+      "model__max_depth": 7,
+      "model__min_samples_leaf": 20
+    },
+    "Random Forest": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 3,
+      "model__n_estimators": 400
+    }
+  },
+  "selected_model": "Random Forest",
+  "selected_threshold": 0.27,
+  "selected_test_auc_95ci": [
+    0.7153106789885766,
+    0.8635170984733028
+  ]
+}
